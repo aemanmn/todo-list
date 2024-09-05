@@ -1,0 +1,7 @@
+# Ensure line endings are handled correctly in source files
+* text=auto
+
+# Exclude node_modules from Git's automatic line ending conversion
+node_modules/* text=auto eol=lf
+
+node_modules/
